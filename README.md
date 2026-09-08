@@ -68,5 +68,3 @@
 ### What I'm Doing Now
 
 - **AI/ML Team Lead @ IIT Bombay:** Leading an engineering cohort building and deploying campus-wide applied AI systems.
-- **Kernel & Inference Optimization:** Working through TensorTonic GPU optimization challenges and low-latency serving.
-- **Mentorship:** Running the *FromMathToMagic* diffusion curriculum for junior engineers.
