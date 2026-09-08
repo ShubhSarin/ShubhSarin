@@ -32,23 +32,29 @@
 - Enforced a strict *tool-before-coordinate mandate* so the model outputs a topological constraint graph rather than pixel coordinates.
 - Deterministic NumPy + Matplotlib compiler analytically solves the equations into clean vector SVGs, dropping diagram failure rates from ~60% to 0%.
 
-#### 3. [FromMathToMagic](https://github.com/ShubhSarin/FromMathToMagic)
-*Generative Diffusion Models from First Principles · Seasons of Code Curriculum*
-- 13-week progressive build-first curriculum for first-year students extending codebases milestone by milestone.
-- Mathematical derivations and implementations spanning Linear VAEs on synthetic distributions $\to$ ELBO derivations $\to$ DDPM sampling $\to$ CLIP-guided generation.
-- **Stack:** Python, PyTorch, Jupyter, Mathematical Optimization.
-
-#### 4. DocLayout-YOLO & Two-Collection Ingestion Pipeline
+#### 3. DocLayout-YOLO & Two-Collection Ingestion Pipeline
 *High-Density Document Segmentation & OCR*
-- Fine-tuned YOLOv10m on a 33k-image synthetic dataset with variable fonts, multi-column layouts, and margin shifts.
+- Fine-tuned YOLOv10m on a 33k-image synthetic dataset with variable fonts, multi-column layouts, and margin shifts (96.1% mAP50 / 88.9% mAP50-95).
 - Diagnosed and fixed an upstream float16 export defect that silently zeroed out Distribution Focal Loss (DFL) gradients.
 - Integrated into a two-collection MongoDB staging pipeline with scope-enforced reads and interactive human review.
 
-#### 5. [WIDS-2025-Agentic-AI](https://github.com/ShubhSarin/WIDS-2025-Agentic-AI)
+#### 4. [WIDS-2025-Agentic-AI](https://github.com/ShubhSarin/WIDS-2025-Agentic-AI)
 *Multi-Agent State Machines & Tool Coordination*
 - Implemented LangGraph state machines using TypedDict state, conditional router dispatching, and looping control flow.
 - Built 8 Google ADK agent patterns including Sequential, Parallel, Session-persistent, and Tool-calling agents.
 - **Stack:** Python, LangGraph, Google ADK, Streamlit.
+
+#### 5. [TensorTonic-Solutions](https://github.com/ShubhSarin/TensorTonic-Solutions)
+*GPU Kernel & Tensor Performance Engineering*
+- Implementations and optimizations for tensor algorithms, custom forward/backward passes, and memory layout considerations.
+- Focuses on operational intensity, memory bandwidth bottlenecks, and kernel efficiency in deep learning workflows.
+- **Stack:** PyTorch, CUDA, Python, GPU Profiling.
+
+#### 6. [Vision-to-text-SOC](https://github.com/ShubhSarin/Vision-to-text-SOC)
+*Attention-Based Multimodal Image Captioning*
+- ResNet-50 feature extractor paired with an LSTM language decoder augmented with Bahdanau additive attention.
+- Generates dynamic alignment heatmaps over image regions during autoregressive caption generation.
+- **Stack:** PyTorch, Torchvision, Python, Bahdanau Attention, ResNet-50.
 
 ---
 
@@ -56,15 +62,17 @@
 
 | ML Systems | Engineering & Cloud | Core Stack | Engineering Mindset |
 | :--- | :--- | :--- | :--- |
-| LLM Systems & Pipelines | Pipeline Architecture | **Python**, **Go**, **C++** | Systems Thinking |
+| LLM Systems & Pipelines | Pipeline Architecture | **Python**, **C++**, **SQL** | Systems Thinking |
 | Programmatic IR (LLM $\to$ Code) | Hybrid Local/Cloud Serving | **PyTorch**, **LangGraph** | Failure Mode Analysis |
-| Evaluation Methodology | Docker & Container Apps | **YOLOv10**, **Triton** | Metric Design & Critique |
+| Evaluation Methodology | Docker & Container Apps | **YOLOv10**, **ChromaDB** | Metric Design & Critique |
 | Pairwise & Swiss Ranking | Vector Retrieval & RAG | **Transformers**, **LoRA** | Deterministic Boundaries |
-| Diffusion (DDPM, VAEs) | MongoDB, PostgreSQL | **TypeScript / Next.js** | Empirical Benchmarking |
-| Multimodal Extraction | Linux / POSIX Toolchains | **Matplotlib**, **RDKit** | First-Principles Derivation |
+| Document Layout & OCR | MongoDB, PostgreSQL | **Azure Container Apps** | Empirical Benchmarking |
+| Multimodal Attention Models | Linux / POSIX Toolchains | **Matplotlib**, **NumPy** | First-Principles Derivation |
 
 ---
 
 ### What I'm Doing Now
 
 - **AI/ML Team Lead @ IIT Bombay:** Leading an engineering cohort building and deploying campus-wide applied AI systems.
+- **Kernel & Inference Optimization:** Working through TensorTonic GPU optimization challenges and low-latency serving.
+- **Applied AI & Agentic Systems:** Designing verifiable tool-calling state machines, deterministic IR compilers, and multimodal extraction pipelines.
