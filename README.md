@@ -44,13 +44,7 @@
 - Built 8 Google ADK agent patterns including Sequential, Parallel, Session-persistent, and Tool-calling agents.
 - **Stack:** Python, LangGraph, Google ADK, Streamlit.
 
-#### 5. [TensorTonic-Solutions](https://github.com/ShubhSarin/TensorTonic-Solutions)
-*GPU Kernel & Tensor Performance Engineering*
-- Implementations and optimizations for tensor algorithms, custom forward/backward passes, and memory layout considerations.
-- Focuses on operational intensity, memory bandwidth bottlenecks, and kernel efficiency in deep learning workflows.
-- **Stack:** PyTorch, CUDA, Python, GPU Profiling.
-
-#### 6. [Vision-to-text-SOC](https://github.com/ShubhSarin/Vision-to-text-SOC)
+#### 5. [Vision-to-text-SOC](https://github.com/ShubhSarin/Vision-to-text-SOC)
 *Attention-Based Multimodal Image Captioning*
 - ResNet-50 feature extractor paired with an LSTM language decoder augmented with Bahdanau additive attention.
 - Generates dynamic alignment heatmaps over image regions during autoregressive caption generation.
@@ -74,5 +68,3 @@
 ### What I'm Doing Now
 
 - **AI/ML Team Lead @ IIT Bombay:** Leading an engineering cohort building and deploying campus-wide applied AI systems.
-- **Kernel & Inference Optimization:** Working through TensorTonic GPU optimization challenges and low-latency serving.
-- **Applied AI & Agentic Systems:** Designing verifiable tool-calling state machines, deterministic IR compilers, and multimodal extraction pipelines.
