@@ -32,7 +32,7 @@
 - Converts full playlist-scale lecture series into structured chapter notes, interactive flashcards, and quizzes.
 - Engineered fault-tolerant ingestion handling 5 distinct transcript failure modes with per-video isolation.
 - Multi-model routing layer across OpenRouter and Gemini with a 3-stage hallucination filtering pipeline.
-- **Stack:** Python, Streamlit, Azure Container Apps, Docker, ChromaDB, RAG.
+- **Stack:** Python, FastAPI, React 19, Vite, Tailwind CSS, Azure Container Apps, Docker, In-Memory Vector Search.
 
 <p align="center">
   <img src="assets/youtube-study-helper-architecture.png" alt="YouTube Study Helper Architecture" width="100%" />
@@ -84,7 +84,8 @@
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Azure%20Container%20Apps-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/ChromaDB-FC521F?style=flat-square&logo=database&logoColor=white" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
@@ -94,7 +95,7 @@
 | :--- | :--- | :--- | :--- |
 | LLM Systems & Pipelines | Pipeline Architecture | **Python**, **C++**, **SQL** | Systems Thinking |
 | Programmatic IR (LLM $\to$ Code) | Hybrid Local/Cloud Serving | **PyTorch**, **LangGraph** | Failure Mode Analysis |
-| Evaluation Methodology | Docker & Container Apps | **YOLOv10**, **ChromaDB** | Metric Design & Critique |
+| Evaluation Methodology | Docker & Container Apps | **YOLOv10**, **FastAPI** | Metric Design & Critique |
 | Pairwise & Swiss Ranking | Vector Retrieval & RAG | **Transformers**, **LoRA** | Deterministic Boundaries |
 | Document Layout & OCR | MongoDB, PostgreSQL | **Azure Container Apps** | Empirical Benchmarking |
 | Multimodal Attention Models | Linux / POSIX Toolchains | **Matplotlib**, **NumPy** | First-Principles Derivation |
