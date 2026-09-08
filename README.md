@@ -87,7 +87,6 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
@@ -97,7 +96,7 @@
 | Programmatic IR (LLM $\to$ Code) | Hybrid Local/Cloud Serving | **PyTorch**, **LangGraph** | Failure Mode Analysis |
 | Evaluation Methodology | Docker & Container Apps | **YOLOv10**, **FastAPI** | Metric Design & Critique |
 | Pairwise & Swiss Ranking | Vector Retrieval & RAG | **Transformers**, **LoRA** | Deterministic Boundaries |
-| Document Layout & OCR | MongoDB, PostgreSQL | **Azure Container Apps** | Empirical Benchmarking |
+| Document Layout & OCR | MongoDB (Two-Collection) | **Azure Container Apps** | Empirical Benchmarking |
 | Multimodal Attention Models | Linux / POSIX Toolchains | **Matplotlib**, **NumPy** | First-Principles Derivation |
 
 ---
