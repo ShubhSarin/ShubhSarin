@@ -32,25 +32,19 @@
 - Enforced a strict *tool-before-coordinate mandate* so the model outputs a topological constraint graph rather than pixel coordinates.
 - Deterministic NumPy + Matplotlib compiler analytically solves the equations into clean vector SVGs, dropping diagram failure rates from ~60% to 0%.
 
-#### 3. [GoModel](https://github.com/ShubhSarin/GoModel)
-*Lightweight, Unified AI Gateway in Go*
-- High-performance, OpenAI-compatible proxy routing requests across OpenAI, Anthropic, Gemini, Groq, xAI, and Ollama.
-- Built-in streaming SSE passthrough, latency and cost tracking, token-aware caching, and automated fallback failover.
-- **Stack:** Go, Gin, REST, Cloud APIs, Docker.
-
-#### 4. [FromMathToMagic](https://github.com/ShubhSarin/FromMathToMagic)
+#### 3. [FromMathToMagic](https://github.com/ShubhSarin/FromMathToMagic)
 *Generative Diffusion Models from First Principles · Seasons of Code Curriculum*
 - 13-week progressive build-first curriculum for first-year students extending codebases milestone by milestone.
 - Mathematical derivations and implementations spanning Linear VAEs on synthetic distributions $\to$ ELBO derivations $\to$ DDPM sampling $\to$ CLIP-guided generation.
 - **Stack:** Python, PyTorch, Jupyter, Mathematical Optimization.
 
-#### 5. DocLayout-YOLO & Two-Collection Ingestion Pipeline
+#### 4. DocLayout-YOLO & Two-Collection Ingestion Pipeline
 *High-Density Document Segmentation & OCR*
 - Fine-tuned YOLOv10m on a 33k-image synthetic dataset with variable fonts, multi-column layouts, and margin shifts.
 - Diagnosed and fixed an upstream float16 export defect that silently zeroed out Distribution Focal Loss (DFL) gradients.
 - Integrated into a two-collection MongoDB staging pipeline with scope-enforced reads and interactive human review.
 
-#### 6. [WIDS-2025-Agentic-AI](https://github.com/ShubhSarin/WIDS-2025-Agentic-AI)
+#### 5. [WIDS-2025-Agentic-AI](https://github.com/ShubhSarin/WIDS-2025-Agentic-AI)
 *Multi-Agent State Machines & Tool Coordination*
 - Implemented LangGraph state machines using TypedDict state, conditional router dispatching, and looping control flow.
 - Built 8 Google ADK agent patterns including Sequential, Parallel, Session-persistent, and Tool-calling agents.
