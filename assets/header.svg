@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4491f"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="text-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1f2937" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="180" rx="12" fill="url(#bg-grad)" stroke="#1f2937" stroke-width="1.2"/>
+  <rect width="900" height="180" rx="12" fill="url(#grid)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#accent-grad)"/>
+
+  <!-- Top Status Pill -->
+  <g transform="translate(44, 30)">
+    <circle cx="5" cy="5" r="4" fill="#10b981"/>
+    <circle cx="5" cy="5" r="7" fill="#10b981" opacity="0.25"/>
+    <text x="18" y="9" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1.2">IIT BOMBAY · COMPETITIVE ML &amp; APPLIED AI SYSTEMS</text>
+  </g>
+
+  <!-- Name -->
+  <text x="44" y="86" fill="url(#text-glow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">Shubh Sareen</text>
+
+  <!-- Subtitle -->
+  <text x="44" y="118" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" letter-spacing="0.2">
+    AI/ML Team Lead @ IIT Bombay
+    <tspan fill="#64748b" font-weight="400"> · Applied AI, LLM Systems &amp; Computer Vision</tspan>
+  </text>
+
+  <!-- Key Metrics / Tags -->
+  <g transform="translate(44, 138)">
+    <rect x="0" y="0" width="118" height="22" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="10" y="15" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">96.1% mAP50 YOLO</text>
+
+    <rect x="126" y="0" width="134" height="22" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="136" y="15" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">16-Tool Geometry IR</text>
+
+    <rect x="268" y="0" width="130" height="22" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="278" y="15" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Production RAG Apps</text>
+
+    <rect x="406" y="0" width="132" height="22" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="416" y="15" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Competitive Modeling</text>
+  </g>
+</svg>
